@@ -1,0 +1,13 @@
+{
+  "name": "draggable",
+  "repo": "shaunxcode/draggable",
+  "description": "create draggable elements",
+  "version": "0.0.1",
+  "keywords": ["tools", "interaction"],
+  "dependencies": {
+    "component/emitter": "*"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}
