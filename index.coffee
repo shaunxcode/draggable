@@ -16,8 +16,8 @@ module.exports = (element) ->
 		emitter.emit "dragstart", {element, originX, originY, startX, startY}
 
 		document.addEventListener "mousemove", moveEvent = (e) ->
-			element.style["left"] = (originX + (e.pageX - startX)) + "px"
-			element.style["top"] = (originY + (e.pageY - startY)) + "px"
+			element.style.left = (originX + (e.pageX - startX)) + "px"
+			element.style.top = (originY + (e.pageY - startY)) + "px"
 
 			emitter.emit "drag"
 
